@@ -1,4 +1,8 @@
-﻿#include <iostream>
+﻿// < Малько Дем'ян >
+// Лабораторна робота № 3.1
+// Розгалуження, задане формулою: функція однієї змінної.
+// Варіант 9
+#include <iostream>
 #include <cmath>
 using namespace std;
 int main()
