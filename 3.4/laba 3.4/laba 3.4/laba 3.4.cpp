@@ -13,7 +13,8 @@ int main() {
 	cout << "y = "; cin >> y;
 	cout << "r = "; cin >> r;
 	// розалуження в повній формі
-	if ((y >= (x - 1) * (x - 1) && (y * y) <= (r * r) - (x * x) && x >= 0) || (y >= -sqrt(r*r - x*x) && y <= 0 && x <= 0))
+	if ((y >= (x - 1) * (x - 1) && (y * y) <= (r * r) - (x * x) && x >= 0 && y > 0) || 
+		(y *y +x*x<= r*r && y <= 0 && x <= 0))
 		cout << "yes" << endl;
 	else
 		cout << "no" << endl;
